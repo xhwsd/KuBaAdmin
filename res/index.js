@@ -4,6 +4,8 @@
 layui.config({
 	// 静态资源所在路径
 	base: 'res/',
+	// 动态刷新缓存
+	version: new Date().getTime()
 }).extend({
 	// 将 config.js 扩展到 layui 模块
 	setter: 'config'
